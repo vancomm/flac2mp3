@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "flac2mp3"
+version = "0.1.0"
+description = ""
+authors = ["vancomm <peshekhonov.ip@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = "^8.1.7"
+
+[tool.poetry.scripts]
+flac2mp3 = "flac2mp3:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
